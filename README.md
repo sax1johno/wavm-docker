@@ -12,3 +12,5 @@ To run WAVM mounting your current working directory, you can use the following c
 ```
 docker run --rm -v `pwd`:/src -u `id -u`:`id -g` sax1johno/wavm wavm
 ```
+
+To update to the current version of WAVM, replace the `wavm-current.deb` file with the current debian binary build.
